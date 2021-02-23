@@ -283,8 +283,8 @@ nav {
 
 .footer__left > img,
 .footer__right > img {
-  width: 25%;
-  height: 40%;
+  width: 150px;
+  height: 150px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -308,19 +308,9 @@ nav {
 
 /* @media */
 
-@media screen and (max-width: 414px) and (max-height: 824px) {
+@media screen and (max-width: 484px) and (max-height: 834px) {
   .footer {
-    margin-top: 300px !important;
-    padding: 50px;
-  }
-
-  .footer__left > img,
-  .footer__right > img {
-    width: 100% !important;
-    height: 35% !important;
-  }
-
-  .footer__right {
-    margin-top: 50px !important;
+    margin-top: 250px !important;
+    padding: 20px;
   }
 }
